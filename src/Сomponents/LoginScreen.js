@@ -60,6 +60,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     borderTopLeftRadius: 25,
     borderTopRightRadius: 25,
+    fontFamily: "Roboto-400",
   },
 
   form: {
