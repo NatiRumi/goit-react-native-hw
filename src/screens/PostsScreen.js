@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
 
   title: {
     marginTop: 44,
-    fontFamily: "Roboto-500",
+    fontFamily: "Roboto",
     fontSize: 17,
     lineHeight: 22,
     color: "#212121",
@@ -45,12 +45,12 @@ const styles = StyleSheet.create({
   },
 
   name: {
-    fontFamily: "Roboto-700",
+    fontFamily: "Roboto",
     fontSize: 13,
   },
 
   emale: {
-    fontFamily: "Roboto-400",
+    fontFamily: "Roboto",
     fontSize: 11,
   }
 });

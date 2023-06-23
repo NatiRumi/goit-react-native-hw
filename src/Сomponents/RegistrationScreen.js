@@ -6,11 +6,12 @@ import {
   Text,
   TextInput,
   StyleSheet,
+  Image,
 } from "react-native";
 import ImageBG from "../assets/images/imageBG.png";
 import Avatar from "../assets/images/avatar.png";
 import { AntDesign } from "@expo/vector-icons";
-// import IconeAdd from '../assets/images/iconeAdd.png';
+import IconeAdd from '../assets/images/iconeAdd.png';
 
 export default function RegistrationScreen() {
   return (
@@ -21,6 +22,9 @@ export default function RegistrationScreen() {
             <View style={styles.avatarBlock}>
                 <View style={styles.avatar}></View>
               {/* <Image source={Avatar} style={{ width: 120, height: 120 }}></Image> */}
+              <Pressable style={styles.avatarButton}>
+                <Image source={IconeAdd} style={styles.icon} />
+              </Pressable>
               {/* <Pressable>
                 <AntDesign
                   name="pluscicleo"
@@ -76,7 +80,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     borderTopLeftRadius: 25,
     borderTopRightRadius: 25,
-    fontFamily: "Roboto-400",
+    fontFamily: "Roboto",
   },
 
   form: {
@@ -101,10 +105,22 @@ const styles = StyleSheet.create({
     borderRadius: 16,
   },
 
+  avatarButton: {
+    borderColor: "#FF6C00",
+    borderRadius: 50,
+  },
+
+  icon: {
+    width: 25,
+    height: 25,
+    position: "absolute",
+    bottom: 14,
+    right: 0,
+  },
+
   title: {
     marginTop: 92,
     marginBottom: 12,
-    fontFamily: "Roboto-500",
     fontSize: 30,
     lineHeight: 35,
     textAlign: "center",
@@ -132,13 +148,13 @@ const styles = StyleSheet.create({
 
   buttonName: {
     textAlign: "center",
-    fontFamily: "Roboto-400",
+    fontFamily: "Roboto",
     color: "#ffffff",
   },
 
   linkName: {
     textAlign: "center",
-    fontFamily: "Roboto-400",
+    fontFamily: "Roboto",
     color: "#1B4371",
   },
 

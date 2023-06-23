@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     borderTopLeftRadius: 25,
     borderTopRightRadius: 25,
-    fontFamily: "Roboto-400",
+    fontFamily: "Roboto",
   },
 
   form: {
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
   title: {
     marginTop: 92,
     marginBottom: 12,
-    fontFamily: "Roboto-500",
+    fontFamily: "Roboto",
     fontSize: 30,
     lineHeight: 35,
     textAlign: "center",
