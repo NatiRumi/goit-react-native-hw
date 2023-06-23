@@ -3,7 +3,6 @@ import {
   ImageBackground,
   KeyboardAvoidingView,
   Pressable,
-  Image,
   Text,
   TextInput,
   StyleSheet,
